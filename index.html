@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Access Account</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="block-access flex-column">
+        <div class="passwordIndicatin">
+            <p>Mot de passe pour acceder au compte</p>
+            <strong><span class="title">Mot de pass</span> : becoder2.0</strong>
+        </div>
+
+
+        <table>
+            <tr><input type="password" class="passValue" placeholder="Mot de passe"></tr>
+            <tr>
+                <p class="wrong-password">Mot de passe incorrect !</p>
+            </tr>
+            <tr>
+                <td class="keysValue">p</td>
+                <td class="keysValue">q</td>
+                <td class="keysValue">r</td>
+            </tr>
+            <tr>
+                <td class="keysValue">1</td>
+                <td class="keysValue">2</td>
+                <td class="keysValue">3</td>
+            </tr>
+            <tr>
+                <td class="keysValue">d</td>
+                <td class="keysValue">e</td>
+                <td class="keysValue">f</td>
+            </tr>
+            <tr>
+                <td class="keysValue">4</td>
+                <td class="keysValue">5</td>
+                <td class="keysValue">6</td>
+            </tr>
+            <tr>
+                <td class="keysValue">.</td>
+                <td class="keysValue">#</td>
+                <td class="keysValue">*</td>
+            </tr>
+            <tr>
+                <td class="keysValue">a</td>
+                <td class="keysValue">b</td>
+                <td class="keysValue">c</td>
+            </tr>
+            <tr>
+                <td class="keysValue">7</td>
+                <td class="keysValue">8</td>
+                <td class="keysValue">9</td>
+            </tr>
+            <tr>
+                <td class="keysValue">m</td>
+                <td class="keysValue">n</td>
+                <td class="keysValue">o</td>
+            </tr>
+            <tr>
+                <td class="keysValue">t</td>
+                <td class="keysValue">u</td>
+                <td class="keysValue">v</td>
+            </tr>
+            <tr>
+                <td id="suppBtn">&#10229;</td>
+                <td class="keysValue">0</td>
+                <td id="accessBtn">Entrer</td>
+            </tr>
+            <tr>
+                <td class="keysValue">+</td>
+                <td id="clearBtn">Effacer</td>
+                <td class="keysValue">/</td>
+            </tr>
+
+        </table>
+    </div>
+
+
+
+    <main id="main">
+        <nav class="top-nav">
+            <div class="top-nav-left">
+                <span class="mac-icon-red"></span>
+                <span class="mac-icon-yellow"></span>
+                <span class="mac-icon-green"></span>
+            </div>
+            <div class="flex-column burger-menu" id="menu">
+                <span class="line-1"></span>
+                <span class="line-2"></span>
+                <span class="line-3"></span>
+            </div>
+        </nav>
+
+        <div class="video-box">
+            <video autoplay loop muted plays-inline class="bg-deo">
+                <source src="./img-png-deo/hero-video.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <section class="main-section">
+            <div class="flex-column left">
+                <div class="profile-img-box">
+                    <img src="./img-png-deo/profile.jpg" class="image" alt="photo de profil">
+                </div>
+                <h3 class="name">Mamadou</h3>
+                <small class="profession">UX / UI Designer</small>
+                <small class="identifiant">@kaneDiallo_221</small>
+
+                <div class="followers-box">
+                    <div class="flex-column followers">
+                        <strong class="numbers">4,073k</strong>
+                        <small class="small">Abonné (es)</small>
+                    </div>
+                    <div class="flex-column following">
+                        <strong class="numbers">568</strong>
+                        <small class="small">Abonnement</small>
+                    </div>
+                    <div class="flex-column pubs">
+                        <strong class="numbers">568</strong>
+                        <small class="small">Publications</small>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <div class="list-nav">
+                    <button type="button">Photos</button>
+                    <button type="button">Galeries</button>
+                    <button type="button">Groupes</button>
+                    <button type="button">A popos</button>
+                </div>
+
+                <div class="grid-img">
+                    <img class="image" src="./img-png-deo/image-1.jpg" alt="image">
+                    <img class="image" src="./img-png-deo/image-2.jpg" alt="image">
+                    <img class="image" src="./img-png-deo/image-3.jpg" alt="image">
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <div class="message">
+        <p>Uniquement le clavier virtuel !</p>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
